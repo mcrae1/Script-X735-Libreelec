@@ -1,0 +1,18 @@
+cd .config/
+
+nano shutdown_x735.sh
+chmod +x shutdown_x735.sh
+sh shutdown_x735.sh
+nano shutdownirq.py
+chmod +x shutdownirq.py
+nano autostart.sh
+chmod +x autostart.sh
+nano softshutdown.sh
+chmod +x softshutdown.sh
+
+cd system.d/
+nano shutdown.service
+systemctl daemon-reload
+systemctl enable shutdown.service
+systemctl start shutdown.service
+

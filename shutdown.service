@@ -1,0 +1,12 @@
+[Unit]
+Description=Before Shutting Down
+After= reboot.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/bin/true
+ExecStop=/storage/.config/softshutdown.sh
+
+[Install]
+WantedBy=multi-user.target
