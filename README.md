@@ -2,3 +2,6 @@ Buenas, a ver si me podeis ayudar a configurar estos scritps x735 raspberry pi 4
 
 
 Hello, let's see if you can help me configure these x735 raspberry pi 4 scripts to turn off and restart kodi 21 omega, in this one it does not work because of its architecture which is aarch64, in the arm architecture only the shutdown works. On kodi 20.3 nexus.
+
+
+Please send Comments and Bugreports to mcrae12es@gmail.com
