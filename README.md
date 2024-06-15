@@ -19,9 +19,8 @@ These scripts should now work with RPi4 and older generations with LE12, but are
 
 - shutdown_x735.sh
 - softshutdown.sh
+- shutdownirq.py
 
 ## Work in progress
 
-- directly support for RPi5 (migration of the shell scripts to pinctrl)
-- remove logical issues in shutdownirq.py
-- migration of shutdownirq.py to lgpio
+- migration of the shell scripts to pinctrl
