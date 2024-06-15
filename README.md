@@ -23,5 +23,5 @@ These scripts should now work with RPi4 and older generations with LE12, but are
 ## Work in progress
 
 - directly support for RPi5 (migration of the shell scripts to pinctrl)
-- remove logical issues in shutdown shutdownirq.py
+- remove logical issues in shutdownirq.py
 - migration of shutdownirq.py to lgpio
