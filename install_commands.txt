@@ -15,4 +15,3 @@ nano shutdown.service
 systemctl daemon-reload
 systemctl enable shutdown.service
 systemctl start shutdown.service
-
